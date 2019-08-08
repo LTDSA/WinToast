@@ -21,7 +21,8 @@ In this config file:
 
 ## To-do
 
-- Customizable position
-- Multi-line content
-- Colorful background
-- ...
+- [ ] Customizable position
+- [ ] Customizable shape
+- [ ] Multi-line content
+- [ ] Colorful background
+- [ ] Status logo
