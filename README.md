@@ -11,6 +11,8 @@ Create a WinToast.ini under the directory where WinToast run. The content should
 Content=Hello World!
 Width=200
 Timeout=3000
+Rounded=True
+Background=Black
 ```
 
 In this config file:
@@ -18,11 +20,13 @@ In this config file:
 - Content: Toast content
 - Width: Toast width (default=200)
 - Timeout: The time the toast to show (the unit is ms) (default=3000)
+- Rounded: Whether the toast has rounded or not (default=True)
+- Background: The background color of the toast, supports black, red, green and blue (default=Black)
 
 ## To-do
 
 - [ ] Customizable position
-- [ ] Customizable shape
+- [x] Customizable shape
 - [ ] Multi-line content
-- [ ] Colorful background
+- [x] Colorful background
 - [ ] Status logo
